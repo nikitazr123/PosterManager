@@ -1,14 +1,14 @@
 package ru.netilogy;
 
 public class PosterManager {
-    private String[] movies = new String[0]; // менеджер не содержит фильмы после создания
-    private int defaultCountMovie; // значение количества фильмов по умолчанию
+    private String[] movies = new String[0];
+    private int defaultCountMovie;
 
-    public PosterManager(int defaultCountMovie) { // конструктор с изменяемым количеством фильмов
+    public PosterManager(int defaultCountMovie) {
         this.defaultCountMovie = defaultCountMovie;
     }
 
-    public PosterManager() { // конструктор со значением количества фильмов по умолчанию
+    public PosterManager() {
         this.defaultCountMovie = 10;
     }
 
